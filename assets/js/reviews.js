@@ -36,11 +36,25 @@ const reviews = [
         description: "A campanha de Black Ops II tem duas histórias que estão interligadas, uma que decorre entre os anos 80 e 90 e a outra que acontece em 2025. O protagonista de Black Ops, Alex Mason, regressa como protagonista na sessão da Guerra Fria, onde irá lutar numa guerra de procuração pelos Estados Unidos."
     },
     {
-        id: 6,
+        id: 7,
         img: "assets/image/game-06.jpg",
+        name: "Tom Clancy's Ghost Recon Wildlands",
+        developer: "Ubisoft",
+        description: "O jogo se passa na Bolívia de 2019, com o grupo Ghost encarregado de desmantelar o cartel de drogas conhecido como Santa Blanca Cartel que virou o maior produtor de cocaína do mundo."
+    },
+    {
+        id: 6,
+        img: "assets/image/game-07.jpg",
         name: "Battlefield 3",
         developer: "Electronic Arts",
         description: "A história é toda contada em terceira pessoa, como uma narrativa onde o Sargento Henry Blackburn é interrogado em uma sala secreta - na verdade, não tão secreta assim - localizada em Nova York. Ele é questionado sobre o que aconteceu no mundo nos últimos dias, com a ameaça de terroristas por todo Planeta. "
+    },
+    {
+        id: 8,
+        img: "assets/image/game-08.jpg",
+        name: "Watch Dogs 2",
+        developer: "Ubisoft",
+        description: "Watch Dogs 2 é ambientado na baía de São Francisco e se desenrola sob a pele de Marcus Holloway, um hacker que foi vítima dos algoritmos de previsão de crime do ctOS 2.0 e acusado injustamente de um delito que não cometeu."
     },
 ]
 
@@ -52,6 +66,7 @@ const descriptionGame = document.getElementById("description")
 const previous = document.getElementById("previous")
 const next = document.getElementById("next")
 const randomBtn = document.getElementById("randomBtn")
+const refreshBtn = document.getElementById("refreshBtn")
 
 // VARIÁVEL DE APOIO
 let currentItem = 0
@@ -89,4 +104,9 @@ previous.addEventListener("click", function() {
 randomBtn.addEventListener("click", function() {
     currentItem = Math.floor(Math.random() * reviews.length)
     showGames()
+})
+
+// REGARREGAR PÁGINA
+refreshBtn.addEventListener("click", function() {
+    location.reload()
 })
