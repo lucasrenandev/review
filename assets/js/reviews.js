@@ -1,4 +1,4 @@
-// CRIANDO OS OBJETOS E ATRIBUINDO EM UM ARRAY
+// CRIANDO OBJETOS E ATRIBUINDO EM UM ARRAY
 const reviews = [
     {
         id: 1,
@@ -38,9 +38,9 @@ const reviews = [
     {
         id: 7,
         img: "assets/image/game-06.jpg",
-        name: "Tom Clancy's Ghost Recon Wildlands",
-        developer: "Ubisoft",
-        description: "O jogo se passa na Bolívia de 2019, com o grupo Ghost encarregado de desmantelar o cartel de drogas conhecido como Santa Blanca Cartel que virou o maior produtor de cocaína do mundo."
+        name: "Grand Theft Auto V",
+        developer: "Rockstar Games",
+        description: "O jogo se passa no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três criminosos e seus esforços para realizarem assaltos sob a pressão de uma agência governamental. O mundo aberto permite que os jogadores naveguem livremente pelas áreas rurais e urbanas de San Andreas"
     },
     {
         id: 6,

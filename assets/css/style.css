@@ -24,6 +24,7 @@ main section {
     justify-content: center;
     gap: 12px;
     border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 main section .title h1 {
@@ -66,12 +67,12 @@ main section article .chevron-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     margin-top: 10px;
 }
 
 main section article .chevron-container i {
-    font-size: 1.4em;
+    font-size: 1.5em;
     cursor: pointer;
 }
 
